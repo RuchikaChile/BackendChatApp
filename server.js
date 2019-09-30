@@ -23,7 +23,7 @@ var route = require('./routes/user_routes');
 var bodyParser = require("body-parser");
 
 //connecting to frontend 
-app.use(express.static('../front_end'));
+app.use(express.static('../ChatAppFrontEnd'));
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(expressvalidator());
