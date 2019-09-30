@@ -16,14 +16,14 @@ module.exports =
                service: 'gmail',
                auth:
                {
-                   user: 'userdummy1304@gmail.com',
-                   pass: 'dummyuser1304'
+                   user: '',
+                   pass: ''
                },
            });
 
            const mailOptions =
            {
-               from: 'userdummy301996@gmail.com',
+               from: '',
                to: emailid,
                subject: "Reset Password Link",
                html: url,
